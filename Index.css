@@ -135,13 +135,15 @@ font-family: "微軟正黑體";
 
 }
 #tab1{
-    width: 952px;
     height: 505px;
     background-color: #4F4140;
     padding: 0;
     margin-bottom: 150px;
     font-family: "微軟正黑體";
     color: white;
+}
+.nav-item .nav-link{
+        color: white;
 }
 .ColdPressUL{
     height: 75px;
@@ -170,8 +172,18 @@ font-family: "微軟正黑體";
   color: #fff;
   background-color: #4F4140;
 }
+.nav-pills .nav-link {
+  border-radius: 0rem;
+}
 .ColdpressContent{
     padding: 50px;
+}
+#pills-tabContent .font-weight-bold{
+    margin-bottom: 50px;
+}
+.ColdAbout{
+    line-height: 35px;
+    letter-spacing: 5px;
 }
 #content2{
 padding-top: 15vh;
@@ -313,12 +325,13 @@ padding-bottom: 15vh;
 
 #map{
 height: 450px;
-background-color: pink;
+
 
 }
 #time{
 height: 450px;
-background-color: gray;
+background-image: url(img/address.png);
+background-color: white;
 font-family: "微軟正黑體";
 
 }
@@ -329,7 +342,10 @@ font-family: "微軟正黑體";
 
 #footer_logo{
     height: 150px;
-    background-color: #FF6A00;
+    background-image: url(icon/LOGO.svg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #footer_farm{
@@ -491,6 +507,88 @@ height : 100vh;
 display: none;
 }
 .arc{
+display: none;
+}
+
+#pic1{
+height: 280px;
+background-image: url(img/pic0.jpg);
+background-size: cover;
+background-position: center center;
+margin-bottom: 10%;
+}
+
+.hover1{
+display: none;
+}
+.hover1:hover{
+display: none;
+}
+
+#pic2{
+height: 280px;
+background-image: url(img/pic02.jpg);
+background-size: cover;
+background-position: center center;
+margin-bottom: 10%;
+}
+.hover2{
+display: none;
+}
+.hover2:hover{
+display: none;
+}
+#pic3{
+height: 280px;
+background-image: url(img/pic03.jpg);
+background-size: cover;
+background-position: center center;
+margin-bottom: 10%;
+}
+.hover3{
+display: none;
+}
+.hover3:hover{
+display: none;
+}
+#pic4{
+height: 280px;
+background-image: url(img/pic04.jpg);
+background-size: cover;
+background-position: center center;
+margin-bottom: 10%;
+}
+.hover4{
+display: none;
+}
+.hover4:hover{
+display: none;
+}
+#pic5{
+height: 280px;
+background-image: url(img/pic05.jpg);
+background-size: cover;
+background-position: center center;
+margin-bottom: 10%;
+}
+.hover5{
+display: none;
+}
+.hover5:hover{
+display: none;
+}
+#pic6{
+height: 280px;
+background-image: url(img/pic06.jpg);
+background-size: cover; 
+background-position: center center;
+margin-bottom: 10%; 
+
+}
+.hover6{
+display: none;
+}
+.hover6:hover{
 display: none;
 }
 
