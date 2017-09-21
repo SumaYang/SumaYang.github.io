@@ -20,38 +20,36 @@ margin: 0px 0vh 0%;
 padding:
 }
 
-
+.phonebottombox{
+    margin-top: 80vh;
+}
+#phonebotton{
+    width: 50px;
+    height: 50px;
+    background-image: url(icon/phonebottom.svg);
+    display: none;
+}
 .image
 {
-background-image: url(img/header-bg-01.jpg);
+background-image: url(img/header-bg-02.jpg);
 background-size: cover;
 background-position: center center;
 width : 100%;
 height : 100vh;
+
 }
 
-.arc
-{
-    background-image: url(icon/arc.svg) ;
-    background-size: cover;
-    background-position: center;
-    position : absolute ;
-    opacity: 0.9;
-    bottom:  0vh;
-    width : 100%;
-    height : 185px; 
-}
 .bottom{
 height: 150px;
-width: 70%;
-padding-top:75vh;
+position: absolute;
+bottom: 0;
+padding-top: 25px;
 }
 #bottom1{
 height: 150px;
 background-image: url(icon/bottom1-1.png);
 background-repeat: no-repeat;
 background-position: center center;
-
 }
 .bottomhover1{
 height: 150px;
@@ -204,15 +202,16 @@ margin-bottom: 10vh;
 #pic1{
 height: 350px;
 background-image: url(img/pic01.jpg);
-background-size: cover;
+background-size:cover ;
 background-position: center center;
-margin-bottom: 10%;
+margin-bottom: 30px; 
+box-shadow:0px 0px 30px #C6C6C6; 
 }
 
 .hover1{
 height: 350px;
 background-image: url(img/pichover01.jpg);
-background-size: cover;
+background-size:cover ;
 background-position: center center;
 transition:all 1s;
 border-radius:5px;
@@ -227,7 +226,8 @@ height: 350px;
 background-image: url(img/pic02.jpg);
 background-size: cover;
 background-position: center center;
-margin-bottom: 10%;
+margin-bottom: 30px; 
+box-shadow:0px 0px 30px #C6C6C6; 
 }
 .hover2{
 height: 350px;
@@ -246,7 +246,8 @@ height: 350px;
 background-image: url(img/pic03.jpg);
 background-size: cover;
 background-position: center center;
-margin-bottom: 10%;
+margin-bottom: 30px; 
+box-shadow:0px 0px 30px #C6C6C6; 
 }
 .hover3{
 height: 350px;
@@ -265,7 +266,8 @@ height: 350px;
 background-image: url(img/pic04.jpg);
 background-size: cover;
 background-position: center center;
-margin-bottom: 10%;
+margin-bottom: 30px; 
+box-shadow:0px 0px 30px #C6C6C6; 
 }
 .hover4{
 height: 350px;
@@ -284,7 +286,8 @@ height: 350px;
 background-image: url(img/pic05.jpg);
 background-size: cover;
 background-position: center center;
-margin-bottom: 10%;
+margin-bottom: 30px; 
+box-shadow:0px 0px 30px #C6C6C6; 
 }
 .hover5{
 height: 350px;
@@ -303,7 +306,8 @@ height: 350px;
 background-image: url(img/pic06.jpg);
 background-size: cover; 
 background-position: center center;
-margin-bottom: 10%; 
+margin-bottom: 30px; 
+box-shadow:0px 0px 30px #C6C6C6; 
 
 }
 .hover6{
@@ -319,22 +323,32 @@ opacity:0;
 transition:all 0.5s;
 }
 #content4{
-padding-top: 15vh;
-padding-bottom: 15vh;
+padding-top: 10vh;
+padding-bottom: 10vh;
 }
 
 #map{
 height: 450px;
-
-
 }
+iframe{
+    height: 450px;
+    width: 500px;
+}
+
 #time{
 height: 450px;
-background-image: url(img/address.png);
-background-color: white;
 font-family: "微軟正黑體";
-
+padding-top: 125px;
 }
+#address{
+    height: 200px;
+}
+
+#address1{
+    height: 150px;
+    border-right: thin solid rgba(23,23,23,1);
+}
+
 #footer{
 background-color: #C6B999;
 font-family: "微軟正黑體";
@@ -342,20 +356,62 @@ font-family: "微軟正黑體";
 
 #footer_logo{
     height: 150px;
-    background-image: url(icon/LOGO.svg);
-    background-size: 80%;
-    background-repeat: no-repeat;
-    background-position: center center;
+    padding-top: 35px;
+
+}
+#footer li{
+    list-style: none;
+
+}
+#logo{
+
+height: 80px;
+background-image: url(icon/QR.jpg);
+background-size: 75%;
+background-position: center center;
+background-repeat: no-repeat;
+
 }
 
 #footer_farm{
     height: 150px;
-    background-color: #7FFF8E;
+    padding-top: 35px;
 }
+#farmer{
+    height: 80px;
+
+}
+
+#farmerbox1{
+    height: 30px;
+
+}
+
+#farmerbox2{
+    height: 50px;
+
+}
+#farmerbox3{
+    height: 50px;
+
+}
+
 
 #footer_copyright{
     height: 150px;
-    background-color: #FF6A00;
+
+    padding-top: 35px;
+
+}
+#copyright{
+    height: 80px;
+
+}
+#copyright1{
+    height: 30px;
+}
+#copyright2{
+    height: 50px;
 }
 
 /* MENU
@@ -503,26 +559,26 @@ background-position: center center;
 width : 100%;
 height : 100vh;
 }
+
 .bottom{
-display: none;
-}
-.arc{
 display: none;
 }
 
 #pic1{
 height: 280px;
-background-image: url(img/pic0.jpg);
+background-image: url(img/pic01.jpg);
 background-size: cover;
 background-position: center center;
 margin-bottom: 10%;
+box-shadow:0px 0px 30px #C6C6C6; 
 }
 
 .hover1{
-display: none;
-}
-.hover1:hover{
-display: none;
+height: 280px;
+background-image: url(img/pic01.jpg);
+background-size: cover;
+background-position: center center;
+margin-bottom: 10%;
 }
 
 #pic2{
@@ -531,67 +587,95 @@ background-image: url(img/pic02.jpg);
 background-size: cover;
 background-position: center center;
 margin-bottom: 10%;
+box-shadow:0px 0px 30px #C6C6C6; 
 }
 .hover2{
-display: none;
+height: 280px;
+background-image: url(img/pic02.jpg);
+background-size: cover;
+background-position: center center;
+margin-bottom: 10%;
 }
-.hover2:hover{
-display: none;
-}
+ 
 #pic3{
 height: 280px;
 background-image: url(img/pic03.jpg);
 background-size: cover;
 background-position: center center;
 margin-bottom: 10%;
+box-shadow:0px 0px 30px #C6C6C6; 
 }
 .hover3{
-display: none;
+height: 280px;
+background-image: url(img/pic03.jpg);
+background-size: cover;
+background-position: center center;
+margin-bottom: 10%;
 }
-.hover3:hover{
-display: none;
-}
+
 #pic4{
 height: 280px;
 background-image: url(img/pic04.jpg);
 background-size: cover;
 background-position: center center;
 margin-bottom: 10%;
+box-shadow:0px 0px 30px #C6C6C6; 
 }
 .hover4{
-display: none;
+height: 280px;
+background-image: url(img/pic04.jpg);
+background-size: cover;
+background-position: center center;
+margin-bottom: 10%;
 }
-.hover4:hover{
-display: none;
-}
+
 #pic5{
 height: 280px;
 background-image: url(img/pic05.jpg);
 background-size: cover;
 background-position: center center;
 margin-bottom: 10%;
+box-shadow:0px 0px 30px #C6C6C6; 
 }
 .hover5{
-display: none;
+height: 280px;
+background-image: url(img/pic05.jpg);
+background-size: cover;
+background-position: center center;
+margin-bottom: 10%;
 }
-.hover5:hover{
-display: none;
-}
+
 #pic6{
 height: 280px;
 background-image: url(img/pic06.jpg);
 background-size: cover; 
 background-position: center center;
 margin-bottom: 10%; 
+box-shadow:0px 0px 30px #C6C6C6; 
 
 }
 .hover6{
-display: none;
-}
-.hover6:hover{
-display: none;
+height: 280px;
+background-image: url(img/pic06.jpg);
+background-size: cover; 
+background-position: center center;
+margin-bottom: 10%; 
 }
 
+#logo{
+
+height: 80px;
+background-image: url(icon/QR.jpg);
+background-size: 20%;
+background-position: center center;
+background-repeat: no-repeat;
+
+}
+
+iframe{
+    height: 450px;
+    width: 390px;
+}
 }
 
 nav .row  {
