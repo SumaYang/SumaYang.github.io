@@ -1,0 +1,49 @@
+@media (max-width: 815px) {
+    .ColdPressUL{
+        font-size: 20px;
+    }
+    #tab1{
+        height: 600px;
+    }
+}
+
+
+@media (max-width: 798px) {
+    #coldtext1 .font-weight-bold{
+    font-size: 35px;
+    }
+    .content1{
+    width: 100%;
+    }
+    .coldall01{
+    width: 100%;
+    }
+    .coldall02{
+    width: 100%;
+    -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+    max-width: 100%;
+    padding: -15px;
+    }
+    .ColdPressUL{
+    height: 75px;
+    color: white;
+    line-height: 30px;
+    font-size: 20px;
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+    }
+    .tabs{
+        padding:5px;
+    }
+    #tab1{
+        height: 850px;
+    }
+    .ColdAbout{
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 5px;
+    }
+
+}
